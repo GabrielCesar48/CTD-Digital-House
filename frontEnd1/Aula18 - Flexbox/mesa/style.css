@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+body {
+    margin: 0 20%;
+}
+
+#top {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+#mid {
+    display: flex;
+    justify-content: center;
+}
+
+.linhaVideos {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}

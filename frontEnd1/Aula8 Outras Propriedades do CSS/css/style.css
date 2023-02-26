@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+body {
+    background-color: #131313;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto' sans-serif;
+}
+
+.media-picture {
+    height: 800px;
+    background-image: url(../img/howIMetYourMother.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.review-score {
+    color: white;
+    background-color: #e6bd09;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2 {
+    padding-top: 30px;
+    color: steelblue;
+    font-size: 30px;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+}
+
+
+a {
+    color: yellow;
+    font-size: 20px;
+    
+}
+
+a:hover {
+    color: hotpink;
+}
+
+
+

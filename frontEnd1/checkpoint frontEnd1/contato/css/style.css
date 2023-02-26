@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    background-color: #D7D7D7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Inicio configurações do cabeçalho */
+header {}
+
+#top {
+    border: 1px solid #223839;
+    background-color: #223839;
+    text-align: center;
+    height: 100px;
+
+}
+
+#brasao {
+    position: absolute;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#brasao img {
+    transition: all 0.5s;
+}
+
+#brasao img:hover {
+    transform: scale(1.25);
+}
+
+
+.navtext {
+    color: #7b958d;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s;
+}
+
+.navtext:hover {
+    color: #4abc9e;
+    transform: scale(1.3);
+}
+
+
+#navbar {
+    font-size: 15px;
+}
+
+#navbar a {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #f2f3ee;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s;
+}
+
+#navbar a:hover {
+    background-color: #4abc9e;
+    color: #f2f3ee;
+}
+
+/* Fim das configurações do cabeçalho */
+
+/* Inicio das configurações do Corpo Seção */
+main {}
+
+
+fieldset {
+    position: relative;
+    margin: 50px 20%;
+    border: 2px #4abc9e solid;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f2f3ee;
+    margin-bottom: 100px;
+    box-shadow: 0 0 20px 1px rgba(141, 204, 183, 0.747);
+}
+
+legend {
+    color: #4abc9e;
+    font-size: 25px;
+    padding: 10px;
+    position: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+button {
+    padding: 15px;
+    margin: 10px;
+    background-color: #4abc9e;
+    color: #f2f3ee;
+    font-size: 20px;
+    border: 0;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.8s;
+}
+
+button:hover {
+    scale: 1.5;
+    cursor: pointer;
+    background-color: #223839;
+    color: #4abc9e;
+}
+
+.text-center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.imputfields {
+    position: relative;
+}
+
+.formulario_input {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    color: #4abc9e;
+    border: none;
+    background-color: #f2f3ee;
+    outline: none;
+    border-bottom: 1px solid #4abc9e;
+    padding: 10px 10px 10px 15px;
+    z-index: 2;
+    margin: 10px;
+    
+}
+
+.formulario_input:hover {
+    scale: 0.9;
+    transition: all 0.5s;
+}
+
+.formulario_input:focus {
+    border-bottom: 2px solid #4abc9e;
+    transition: all 1s;
+    background-color: #7b958d;
+    color: #f2f3ee;
+}
+
+label {
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    color: #223839;
+    font-weight: bold;
+    top: 0; bottom: 0; left: 0 rigth: 0;
+    transition: 0.5s;  
+    
+}
+
+
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #7b958d;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #4abc9e;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+select {
+    margin-bottom: 15px;
+}
+
+.interesse {
+    font-size: 20px;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    color: #223839;
+    font-weight: bold;
+    top: 0; bottom: 0; left: 0 rigth: 0;
+    transition: 0.5s;
+}
+
+
+input[type='checkbox']:after {
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #7b958d;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #4abc9e;
+    content: 'V';
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+select {
+    outline: none;
+    border: none;
+    background-color: #7b958d;
+    color: #f2f3ee;
+    border: 1px solid #223839;    
+}
+
+
+
+
+/* Fim das configurações do Corpo Seção*/
+
+/* Inicio das configurações do Corpo*/
+
+
+
+.rodape {
+    background-color: #223839;
+    color: #f2f3ee;
+}
+
+
+.contatoredes {
+    color: #f2f3ee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.redesocial {
+    text-align: center;
+}
+
+.rd1 {
+    margin-right: 30px;
+}
+
+.creditos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.check1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.project {
+    margin-top: 20px;
+    color: #f2f3ee;
+    font-size: 12px;
+}
+
+.project a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #4abc9e;
+}
+
+.project a:hover {
+    color: #56c4e6;
+    transition: all 0.5s;
+}
+
+
+
+
+.rd1 img {
+    transition: 0.6s;
+}
+
+.rd1 img:hover {
+    transform: scale(1.3);
+}

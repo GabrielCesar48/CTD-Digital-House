@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box {
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    color: black;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.caixa-conteudo {
+    border: 2px dotted blueviolet;
+    width: 230px;
+    height: 180px;
+    background-color: darkgray;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#caixa02 {
+    position: absolute;
+    left: 84.35%;
+    top: 0;
+    
+}

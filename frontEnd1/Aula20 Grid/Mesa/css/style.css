@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.gridContainer {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+
+    grid-template-columns: 13% 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+}
+
+header {
+    background-color: #9a979b;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+aside {
+    background-color: #ea396a;
+    grid-area: aside;  
+
+}
+
+main {
+    background-color: #f8f9f8;
+    grid-area: main;
+}
+
+#top {
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navLateral {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    margin-left: 12px;    
+
+}

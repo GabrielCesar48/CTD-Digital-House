@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body {
+    background-color: #383838;
+}
+
+
+.topo  {
+    background-color: #7A0025;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    position: relative;
+    width: 100%;
+}
+
+main {
+    height: 720px;
+    background-image: url(../img/programmer.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 50px;
+}
+
+.frase-programar {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;    
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    background-color: #572121;
+    padding: 20px;
+    border: 1.5px solid white;
+
+}
+
+#botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;   
+}
+
+.botaoEnviar {
+    width: 350px;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #C7C7C7;
+    font-size: 22px;
+    font-weight: bold;
+    color: #C8003B;
+    
+}
+
+
+
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campos Gerais</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Inicio do Topo-->
+    <header>
+
+        <div id="top">
+            <div id="brasao">
+                <!--Brasao da cidade que recebe link e Nome da cidade-->
+                <a href="index.html"><img src="../img/bandeira_cg.png" width="80" alt="Bandeira" title="Brasão"></a>
+
+            </div>
+
+            <h1 class="navtext">Cidade de Campos Gerais</h1>
+
+            <div id="navbar">
+                <nav class="navbuttons">
+                    <!--Botões de navegação-->
+                    <a href="../index.html">História</a>
+                    <a href="../index.html">Curiosidades</a>
+                    <a href="../index.html">Prefeitos</a>
+                    <a href="../index.html">Localização</a>
+                    <a href="../index.html">Cadastro</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <!--Fim do Topo-->
+
+    <!--Inicio do conteudo-->
+    <main>
+
+        <section class="formulario"> <!--Dados Pessoais-->
+            <form action="/cadastrar" name="cadastro-usuario">
+                <fieldset form="cadastro-usuario"> <!--um conjunto/grupo de campos-->
+                  <legend>Dados Pessoais</legend>
+            
+                  <div class="imputfields">
+                    <label for="nome" class="formulario__label">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira o seu nome" maxlength="100" class="formulario_input">
+                  </div>
+                  
+                  <div class="imputfields">
+                    <label for="email" class="formulario__label">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Insira o seu email" class="formulario_input"> 
+                  </div>
+                  
+                  <div class="imputfields">
+                    <label for="phone" class="formulario__label">Telefone:</label>
+                    <input type="number" name="phone" id="phone" placeholder="Insira o seu telefone" class="formulario_input"> 
+                  </div>
+                  
+                  <div class="imputfields">
+                    <label for="data" class="formulario__label">Data de nascimento:</label> <!--formato AAAA-MM-DD -->
+                    <input type="date" name="data" id="data" min="1900-01-01" value="2015-12-31" class="formulario_input">
+                  </div>             
+            
+                  <div>
+                    <input type="radio" name="maiorMenor" id="maior" class="radio"> <label for="maior" class="radiolabel" >Maior de idade</label>
+                    <input type="radio" name="maiorMenor" id="menor" class="radio"> <label for="menor" class="radiolabel">Menor de idade</label>
+                  </div>
+            
+                </fieldset>
+
+                <fieldset>
+                    <form action="cadastro-usuario"></form>
+                    <legend>Interesses</legend>
+
+                    <div>
+                        <label for="interesse"> Ponto de Interesse: </label>
+                        <select name="pontoInteresse" id="pontoInteresse">
+                          <option value="1">Cachoeiras</option>
+                          <option value="2">Serra do Paraiso</option>
+                          <option value="3">Parque Aquático</option>
+                          <option value="4">Igreja Matriz</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <p class="interesse">Interesse: </p>
+                        <input type="checkbox" name="interesse" id="turista"> <label for="turista">Turista</label>
+                        <input type="checkbox" name="interesse" id="residente"> <label for="residente">Residente</label>
+                        <input type="checkbox" name="interesse" id="estudante"> <label for="estudante">Estudante</label>
+                      </div>
+                      
+                      <div class="text-center">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Cadastrar</button>
+               
+                     </div>
+
+                </fieldset>
+
+                
+            </form>
+        </section> <!-- Fim Dados Pessoais-->      
+
+    
+    </main>
+    <!--Fim do conteudo-->
+
+    <!--Inicio do rodape-->
+    <footer id="Contato" class="rodape">
+
+        <div class="redesocial">
+            <!--Div para contatos e rede social-->
+
+            <h3 class="contatoredes">Entre em contato através das nossas redes sociais:</h3>
+
+            <span class="rd1">
+                <a href="https://www.instagram.com/prefeituracamposgeraismg/" target="_blank">
+                    <img src="../img/instagram.png" alt="instagram" width="60">
+                </a>
+            </span>
+
+
+            <span class="rd1">
+                <a href="https://www.facebook.com/PrefeituraCamposGeraisMG" target="_blank">
+                    <img src="../img/facebook.png" alt="instagram" width="60">
+                </a>
+            </span>
+        </div>
+
+        <div class="creditos">
+            <!--Div para quem desenvolveu-->
+            <p class="check1">
+                Checkpoint2 T05
+            </p>
+            <p class="project">Projetado por: <a href="https://www.linkedin.com/in/gabrielcesar48/" target="_blank" class="Creditos"> Gabriel Cesar Pereira </a>
+            </p>
+        </div>
+    </footer>
+    <!--Fim do rodape-->
+
+</body>
+
+</html>
