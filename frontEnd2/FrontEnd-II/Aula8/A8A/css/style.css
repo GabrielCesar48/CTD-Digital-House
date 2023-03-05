@@ -1,0 +1,46 @@
+
+
+
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #ed0e4b;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background-color: -webkit-linear-gradient(right, #ed0e4b, #c91d4c);
+    height: 1px;
+    width: 100%;
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.underline-title {
+    background-color: -webkit-linear-gradient(right, #ed0e4b, #c91d4c);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}
+
+#botao-js-esconder, #botao-js-exibir {
+    margin: top 20px;
+
+}
+
+#modal {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #c91d4c;
+    margin-top: 20px;
+}
