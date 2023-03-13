@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>film-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m0 1q0-0.2 0.1-0.4 0.1-0.2 0.2-0.3 0.1-0.1 0.3-0.2 0.2-0.1 0.4-0.1h14q0.2 0 0.4 0.1 0.2 0.1 0.3 0.2 0.1 0.1 0.2 0.3 0.1 0.2 0.1 0.4v14q0 0.2-0.1 0.4-0.1 0.2-0.2 0.3-0.1 0.1-0.3 0.2-0.2 0.1-0.4 0.1h-14q-0.2 0-0.4-0.1-0.2-0.1-0.3-0.2-0.1-0.1-0.2-0.3-0.1-0.2-0.1-0.4zm4 0v6h8v-6zm8 8h-8v6h8zm-11-8v2h2v-2zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2zm-2 3v2h2v-2zm14-12h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+</svg>

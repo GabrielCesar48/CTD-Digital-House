@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+
+    
+
+
+  </head>
+  <body class="container body">
+
+    <header>
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">
+            <img src="./assets/icons/film.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Filmes
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class=" d-flex justify-content-center mt-5">
+          <form  id="formulario" class="w-100 rounded-4 p-5 formulario">
+
+              <div class="mb-4" id="formTitulo">
+                  <h2 class="text-light pb-3 fw-bolder">----</h2>
+                  <input type="text" class="form-control border-0 text-bg-dark" placeholder="Título" id="imputTitulo">
+                  <div id="validTitulo" class="form-text erroValidacao" >Por favor, preencha corretamente o campo Título.</div>
+              </div>
+
+              <div class="mb-4" id="formUrl">
+                <input type="text" class="form-control border-0 text-bg-dark" id="imputUrl" placeholder="URL" >
+                <div id="validURL" class="form-text erroValidacao">Por favor, preencha corretamente o campo Url.</div>
+              </div>
+
+              <div class="form-floating mb-4" id="formDescricao">
+                <textarea class="form-control border-0 text-bg-dark" placeholder="Descrição" id="imputDescricao" style="height: 209px;"></textarea>
+                <div id="erroValidacao" class="form-text erroValidacao">Por favor, preencha corretamento o campo Descrição.</div>
+              </div>
+
+              <div class="d-flex justify-content-end ">
+                <div class="d-grid gap-2 col-3" >
+                    <button type="submit" class="btn btn-success btn-lg" id="btnCadastrar" disabled  >Cadastrar</button>
+                </div>
+              </div>
+
+            </form>
+      </section>
+    
+
+      <section>
+
+        <div class="row">
+          <h2 class="text-light fw-bolder mt-5 mb-3  d-flex justify-content-center  justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start">----</h2> 
+        </div>
+        
+
+
+          <div class="card-group row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 d-flex " id="cards" >
+
+            <div class="row" id="noCardAdd">
+              <h2 class="fw-bolder mt-2 mb-3  d-flex justify-content-center  justify-content-sm-center justify-content-md-start justify-content-lg-start justify-content-xl-start noCardAdd">----</h2> 
+            </div>
+
+          
+          </div>
+          
+          <div class="card-group row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 d-flex" >
+            
+            <div class="col mb-3 d-flex justify-content-center px-4">
+              <div class="card border-0" aria-hidden="true" id="placeholderCard">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#868e96"></rect>
+                </svg>
+                <div class="card-body bg-dark">
+                  <h5 class="card-title placeholder-glow">
+                    <span class="placeholder col-6"></span>
+                  </h5>
+                  <p class="card-text placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                    <span class="placeholder col-8"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                    <span class="placeholder col-8"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                    <span class="placeholder col-8"></span>          
+                  </p>
+                </div>
+              </div>
+            </div>
+
+      </section>  
+
+    </main>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="./scripts/main.js"></script>
+
+  </body>
+</html>

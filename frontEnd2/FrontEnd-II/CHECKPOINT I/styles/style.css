@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FFFFFFCC;
+  font-weight: 500;
+  opacity: 1;
+  font-size: 16px; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #FFFFFFCC;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #FFFFFFCC;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.body {
+  background-color: #050505;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.formulario {
+  background-color: #151515;
+}
+
+nav .navbar {
+  background-color: #151515;
+}
+
+textarea .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.801);
+  font-weight: 500;
+  opacity: 1; /* Firefox */
+}
+
+
+#imputDescricao::placeholder {
+  color: rgba(255, 255, 255, 0.801);
+  font-weight: 500;
+  opacity: 1; /* Firefox */
+}
+
+.card-title {
+  color: #FFFFFFCC;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  
+}
+
+.card-text {
+  color: #FFFFFF99;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.erroValidacao {
+  color: #FF6666;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+#validTitulo {
+  display: none;
+}
+
+#erroValidacao {
+  display: none;
+}
+
+#validURL {
+  display: none;
+}
+
+
+.noCardAdd {
+  color: #ffffff85;
+}
+
+
+
